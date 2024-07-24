@@ -70,7 +70,7 @@ td, th {
 
 #top
 {
-	height:151px;
+	height:121px;
 	background-color:#bce0bc;
 	padding-top:5px;
 	padding-bottom:5px;
