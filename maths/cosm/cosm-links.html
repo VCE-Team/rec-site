@@ -69,22 +69,25 @@ table {
 }
 /* Zebra striping */
 tr:nth-of-type(odd) { 
-  background: #bce0bc; 
+  background: #bce0bc;
+ 
 }
 th { 
   background:#1b2b26; 
   color: #ff5733; 
   font-weight: bold;
+  height: 30px;
+  
   
    
           
 }
+
 td, th { 
-  padding: 7px; 
+  padding: 6px; 
   border: 1px solid #ccc; 
-  text-align: center; 
-  
-   
+  text-align: center;
+
     
 }
 
@@ -149,14 +152,17 @@ td, th {
 </div>
 
 <table width="100%">
-	<tr>
-	<th class="menu top" colspan=4><h3 style="color: #ff5733;">MODULE - I</h3></th>
+	
+	<th class="menu top"; colspan=4><style="color: #ff5733;">MODULE - I</th>
 </tr>
-		<tr>
-		<th><div align="center"><font style="color: white;"><p style="font-size: 1.5em;">Lecture No</th>
-		<th><div align="center"><font style="color: white;"><p style="font-size: 1.5em;">Name of the Topic</th>
-		<th><div align="center"><font style="color: white;"><p style="font-size: 1.5em;">Lecture By</th>
-		<th><div align="center"><font style="color: white;"><p style="font-size: 1.5em;">Video Links</th>
+</table>
+<table width="100%">
+<tr style="text-align:center;">
+		
+		<th><font style="color: white;"><p style="font-size: 1.5em;">Lecture No</th>
+		<th><font style="color: white;"><p style="font-size: 1.5em;">Name of the Topic</th>
+		<th><font style="color: white;"><p style="font-size: 1.5em;">Lecture By</th>
+		<th><font style="color: white;"><p style="font-size: 1.5em;">Video Links</th>
 		</tr>
 	
 	
@@ -225,18 +231,32 @@ td, th {
 	</tr>
 
 </table>
+
+<h3>Click here for PDF link</h3>
+        <button id="downloadBtn">Download PDF</button>
+
+    <script>
+        document.getElementById('downloadBtn').addEventListener('click', function() {
+            const link = document.createElement('a');
+            link.href = 'https://vardhamancoe-my.sharepoint.com/:b:/g/personal/recordedsessions_vardhaman_org/Ebdn_XGxfTNEpYbDf5m7DEcBH698-6_FAwYlkTiLiPEpHA?e=0SGTo9'; 
+            link.download = 'Lecture Notes';
+            document.body.appendChild(link);
+            link.click();
+            document.body.removeChild(link);
+        });</script>
 <br/>
 
 <table width="100%">
 <tr>
-	<th class="menu top" colspan=4><h3 style="color: #ff5733;">MODULE - II</th>
+	<th class="menu top" colspan=4><style="color: #ff5733;">MODULE - II</th>
 </tr>
 <tr>
-		<th><div align="center"><font style="color: white;"><p style="font-size: 1.5em;">Lecture No</th>
-		<th><div align="center"><font style="color: white;"><p style="font-size: 1.5em;">Name of the Topic</th>
-		<th><div align="center"><font style="color: white;"><p style="font-size: 1.5em;">Lecture By</th>
-		<th><div align="center"><font style="color: white;"><p style="font-size: 1.5em;">Video Links</th>
+		<th><font style="color: white;"><p style="font-size: 1.5em;">Lecture No</th>
+		<th><font style="color: white;"><p style="font-size: 1.5em;">Name of the Topic</th>
+		<th><font style="color: white;"><p style="font-size: 1.5em;">Lecture By</th>
+		<th><font style="color: white;"><p style="font-size: 1.5em;">Video Links</th>
 </tr>
+
 <tr>
 	<td><strong>9</strong></td>
 	<td><strong><div align="left">Binomial Distribution</strong></td>
@@ -306,17 +326,31 @@ td, th {
 	<td><strong><a href="https://www.youtube.com/watch?v=DhAPScFR5Fw&t=1117s" >Click for Video</strong></td></strong></td>
 </tr>
 </table>	
+<br>
+<h3>Click here for PDF link</h3>
+        <button id="downloadBtn">Download PDF</button>
 
+    <script>
+        document.getElementById('downloadBtn').addEventListener('click', function() {
+            const link = document.createElement('a');
+			link.href = ''
+			link.download = 'Lecture Notes';
+            document.body.appendChild(link);
+            link.click();
+            document.body.removeChild(link);
+        });</script>
 <br>
 <table width="100%";>
 <tr>
 
-	<th class="menu top" colspan=4><h3 style="color: #ff5733;">MODULE - III</th></tr>
+	<th class="menu top" colspan=4><style="color: #ff5733;">MODULE - III</th>
+</tr>
+
 <tr>
-		<th><div align="center"><h4 style="color: white;">Lecture No</th>
-		<th><div align="center"><h4 style="color: white;">Name of the Topic</th>
-		<th><div align="center"><h4 style="color: white;">Lecture By</th>
-		<th><div align="center"><h4 style="color: white;">Video Links</th>
+		<th><font style="color: white;"><p style="font-size: 1.5em;">Lecture No</th>
+		<th><font style="color: white;"><p style="font-size: 1.5em;">Name of the Topic</th>
+		<th><font style="color: white;"><p style="font-size: 1.5em;">Lecture By</th>
+		<th><font style="color: white;"><p style="font-size: 1.5em;">Video Links</th>
 </tr>
 
 	
@@ -386,18 +420,30 @@ PLTfL8BuLfmuivof7011efsT4Th3YBZBo0&index=70
 " >Click for Video</strong></a></td>
 </tr>
 </table>
+<h3>Click here for PDF link</h3>
+        <button id="downloadBtn">Download PDF</button>
 
+    <script>
+        document.getElementById('downloadBtn').addEventListener('click', function() {
+            const link = document.createElement('a');
+            link.href = 'https://vardhamancoe-my.sharepoint.com/:b:/g/personal/recordedsessions_vardhaman_org/Ebdn_XGxfTNEpYbDf5m7DEcBH698-6_FAwYlkTiLiPEpHA?e=0SGTo9'; 
+            link.download = 'Lecture Notes';
+            document.body.appendChild(link);
+            link.click();
+            document.body.removeChild(link);
+        });</script>
+<br>
 <tr>
 		<table width="100%">
-		<th class="menu top"><h3 style="color: #ff5733;">MODULE - IV</th>
+		<th class="menu top"><style="color: #ff5733;">MODULE - IV</th>
 		
 
 <table width="100%">
 	<tr style="text-align:center;">
-		<th><div align="center"><h4 style="color: white;">Lecture No</th>
-		<th><div align="center"><h4 style="color: white;">Name of the Topic</th>
-		<th><div align="center"><h4 style="color: white;">Lecture By</th>
-		<th><div align="center"><h4 style="color: white;">Video Links</th>
+		<th><font style="color: white;"><p style="font-size: 1.5em;">Lecture No</th>
+		<th><font style="color: white;"><p style="font-size: 1.5em;">Name of the Topic</th>
+		<th><font style="color: white;"><p style="font-size: 1.5em;">Lecture By</th>
+		<th><font style="color: white;"><p style="font-size: 1.5em;">Video Links</th>
 <table width="100%">
 	<tr style="text-align:center;">
          
@@ -473,19 +519,32 @@ PLTfL8BuLfmuivof7011efsT4Th3YBZBo0&index=47
 	
 	<td><strong><a href="https://www.youtube.com/watch?v=tPHWclHCQiQ&list=
 PLTfL8BuLfmuivof7011efsT4Th3YBZBo0&index=48
-" >Click for Video</strong></td></strong></td>
-	
+" >Click for Video</strong></td>
+</table>
+<h3>Click here for PDF link</h3>
+        <button id="downloadBtn">Download PDF</button>
+
+    <script>
+        document.getElementById('downloadBtn').addEventListener('click', function() {
+            const link = document.createElement('a');
+            link.href = 'https://vardhamancoe-my.sharepoint.com/:b:/g/personal/recordedsessions_vardhaman_org/Ebdn_XGxfTNEpYbDf5m7DEcBH698-6_FAwYlkTiLiPEpHA?e=0SGTo9'; 
+            link.download = 'Lecture Notes';
+            document.body.appendChild(link);
+            link.click();
+            document.body.removeChild(link);
+        });</script>
+<br>	
 	
 	<table width="100%">
-		<th class="menu top"><h3 style="color: #ff5733;">MODULE - V</th>
-		<th></th>
+		<th class="menu top"><style="color: #ff5733;">MODULE - V</th>
+		
 
 <table width="100%">
 	<tr style="text-align:center;">
-		<th><div align="center"><h4 style="color: white;">Lecture No</th>
-		<th><div align="center"><h4 style="color: white;">Name of the Topic</th>
-		<th><div align="center"><h4 style="color: white;">Lecture By</th>
-		<th><div align="center"><h4 style="color: white;">Video Links</th>
+		<th><font style="color: white;"><p style="font-size: 1.5em;">Lecture No</th>
+		<th><font style="color: white;"><p style="font-size: 1.5em;">Name of the Topic</th>
+		<th><font style="color: white;"><p style="font-size: 1.5em;">Lecture By</th>
+		<th><font style="color: white;"><p style="font-size: 1.5em;">Video Links</th>
 <table width="100%">
 	<tr style="text-align:center;">
 	
@@ -566,6 +625,21 @@ PLTfL8BuLfmuivof7011efsT4Th3YBZBo0&index=32
 	<td><strong><a href="https://www.youtube.com/watch?v=W8qczNJFPKM&list=
 PLTfL8BuLfmuivof7011efsT4Th3YBZBo0&index=30
 " >Click for Video</strong></td></strong></td>
+</table>
+<br>
+<h3>Click here for PDF link</h3>
+        <button id="downloadBtn">Download PDF</button>
+
+    <script>
+        document.getElementById('downloadBtn').addEventListener('click', function() {
+            const link = document.createElement('a');
+            link.href = 'https://vardhamancoe-my.sharepoint.com/:b:/g/personal/recordedsessions_vardhaman_org/Ebdn_XGxfTNEpYbDf5m7DEcBH698-6_FAwYlkTiLiPEpHA?e=0SGTo9'; 
+            link.download = 'Lecture Notes';
+            document.body.appendChild(link);
+            link.click();
+            document.body.removeChild(link);
+        });</script>
+
       
    
 	
