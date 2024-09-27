@@ -69,22 +69,35 @@ table {
 }
 /* Zebra striping */
 tr:nth-of-type(odd) { 
-  background: #bce0bc; 
+  background: #bce0bc;
+ 
 }
 th { 
   background:#1b2b26; 
   color: #ff5733; 
-  font-weight: bold; 
-  height: 30px;
+  font-weight: bold;
+  height: 40px;
+  border: 1px solid #ccc; 
+  text-align: center;
+  font-size: 1.5em;
+  color: white;
+   
+          
 }
 
-
-td, th { 
+td { 
   padding: 6px; 
   border: 1px solid #ccc; 
-  text-align: center; 
-}
+  text-align: center;
 
+    
+}
+.menu top{
+ background:#1b2b26; 
+  color: #ff5733;
+  font-weight: bold;
+  height: 30px;
+}
 
 
 #type1
@@ -97,17 +110,12 @@ td, th {
 	
 	cursor:pointer;
 	font-weight:bold;
-	
-	
-	
-	
 
 }
 
 #type1:hover
 {
 	color:#036;
-
 }
 
 #courselink
@@ -150,18 +158,18 @@ td, th {
 
 </div>
 <table width="100%">
-		<th class="menu top";colspan=4><style="color: #ff5733;">MODULE - I</th>
-	</tr>
-	<table>
-	
+	<tr>
+	<th class="menu top"; colspan=4 style="color: #ff5733;"> MODULE - I</th>
+</tr>
+</table>
 <table width="100%">
-	<tr style="text-align:center;">
-	
-		<th><font style="color: white;"><p style="font-size: 1.5em;">Lecture No</th>
-		<th><font style="color: white;"><p style="font-size: 1.5em;">Name of the Topic</th>
-		<th><font style="color: white;"><p style="font-size: 1.5em;">Lecture By</th>
-		<th><font style="color: white;"><p style="font-size: 1.5em;">Video Links</th>
-	</tr>			
+<tr  style="text-align:center;">
+		
+		<th width="15%" >Lecture No</th>
+		<th width="40%" >Name of the Topic</th>
+		<th width="20%">Lecture By</th>
+		<th width="15%">Video Links</th>
+		</tr>
 
 
 	<tr>
@@ -195,30 +203,20 @@ td, th {
 	</tr>
 	</table>
 	<br>
-	<h3>Click here for PDF link</h3>
-        <button id="downloadBtn">Download PDF</button>
-
-    <script>
-        document.getElementById('downloadBtn').addEventListener('click', function() {
-            const link = document.createElement('a');
-            link.href = 'https://vardhamancoe-my.sharepoint.com/:b:/g/personal/recordedsessions_vardhaman_org/Ebdn_XGxfTNEpYbDf5m7DEcBH698-6_FAwYlkTiLiPEpHA?e=0SGTo9'; 
-            link.download = 'Lecture Notes';
-            document.body.appendChild(link);
-            link.click();
-            document.body.removeChild(link);
-        });</script>
-
-<table width="100%">
-<th class="menu top"><div align="center"></th><th><div align="center">MODULE - II</th>
 	
 <table width="100%">
-	<tr style="text-align:center;"><table width="100%">
-	
-	
-		<th><font style="color: white;"><p style="font-size: 1.5em;">Lecture No</th>
-		<th><font style="color: white;"><p style="font-size: 1.5em;">Name of the Topic</th>
-		<th><font style="color: white;"><p style="font-size: 1.5em;">Lecture By</th>
-		<th><font style="color: white;"><p style="font-size: 1.5em;">Video Links</th>
+	<tr>
+	<th class="menu top"; colspan=4 style="color: #ff5733;"> MODULE - II</th>
+</tr>
+</table>
+<table width="100%">
+<tr  style="text-align:center;">
+		
+		<th width="15%" >Lecture No</th>
+		<th width="40%" >Name of the Topic</th>
+		<th width="20%">Lecture By</th>
+		<th width="15%">Video Links</th>
+		</tr>
 
 	
 	<tr>
@@ -294,32 +292,21 @@ td, th {
 	</tr>
 	</table>
 	<br>
-	<h3>Click here for PDF link</h3>
-        <button id="downloadBtn">Download PDF</button>
-
-    <script>
-        document.getElementById('downloadBtn').addEventListener('click', function() {
-            const link = document.createElement('a');
-            link.href = 'https://vardhamancoe-my.sharepoint.com/:b:/g/personal/recordedsessions_vardhaman_org/Ebdn_XGxfTNEpYbDf5m7DEcBH698-6_FAwYlkTiLiPEpHA?e=0SGTo9'; 
-            link.download = 'Lecture Notes';
-            document.body.appendChild(link);
-            link.click();
-            document.body.removeChild(link);
-        });</script>
+	
 	
 	<table width="100%">
- 
- <th class="menu top"><div align="center"></th><th><div align="center">MODULE - III</th>
-	
+	<tr>
+	<th class="menu top"; colspan=4 style="color: #ff5733;"> MODULE - III</th>
+</tr>
+</table>
 <table width="100%">
-<table width="100%">
-	<tr style="text-align:center;">
-	
-		<th><font style="color: white;"><p style="font-size: 1.5em;">Lecture No</th>
-		<th><font style="color: white;"><p style="font-size: 1.5em;">Name of the Topic</th>
-		<th><font style="color: white;"><p style="font-size: 1.5em;">Lecture By</th>
-		<th><font style="color: white;"><p style="font-size: 1.5em;">Video Links</th>	
-	<tr style="text-align:center;">
+<tr  style="text-align:center;">
+		
+		<th width="15%" >Lecture No</th>
+		<th width="40%" >Name of the Topic</th>
+		<th width="20%">Lecture By</th>
+		<th width="15%">Video Links</th>
+		</tr>
 	
 	<tr>
 	<td><strong>14</strong></td>
@@ -377,34 +364,23 @@ PLTfL8BuLfmuivof7011efsT4Th3YBZBo0&index=10
 </tr>
 </table>
 <br>
-<h3>Click here for PDF link</h3>
-        <button id="downloadBtn">Download PDF</button>
 
-    <script>
-        document.getElementById('downloadBtn').addEventListener('click', function() {
-            const link = document.createElement('a');
-            link.href = 'https://vardhamancoe-my.sharepoint.com/:b:/g/personal/recordedsessions_vardhaman_org/Ebdn_XGxfTNEpYbDf5m7DEcBH698-6_FAwYlkTiLiPEpHA?e=0SGTo9'; 
-            link.download = 'Lecture Notes';
-            document.body.appendChild(link);
-            link.click();
-            document.body.removeChild(link);
-        });</script>
 
 <table width="100%">
-      
-      
-    <th class="menu top"><div align="center"></th><th><div align="center">MODULE - IV</th>
-	
+	<tr>
+	<th class="menu top"; colspan=4 style="color: #ff5733;"> MODULE - IV</th>
+</tr>
+</table>
 <table width="100%">
+<tr  style="text-align:center;">
+		
+		<th width="15%" >Lecture No</th>
+		<th width="40%" >Name of the Topic</th>
+		<th width="20%">Lecture By</th>
+		<th width="15%">Video Links</th>
+		</tr>
 
-	<tr style="text-align:center;">
 	
-		<th><font style="color: white;"><p style="font-size: 1.5em;">Lecture No</th>
-		<th><font style="color: white;"><p style="font-size: 1.5em;">Name of the Topic</th>
-		<th><font style="color: white;"><p style="font-size: 1.5em;">Lecture By</th>
-		<th><font style="color: white;"><p style="font-size: 1.5em;">Video Links</th>
-	<tr style="text-align:center;">        
-                  
       
 	<tr>
 	<td><strong>19</strong></td>
@@ -456,33 +432,21 @@ PLTfL8BuLfmuivof7011efsT4Th3YBZBo0&index=48
 	</tr>
 	<table>
 	<br>
-	<h3>Click here for PDF link</h3>
-        <button id="downloadBtn">Download PDF</button>
-
-    <script>
-        document.getElementById('downloadBtn').addEventListener('click', function() {
-            const link = document.createElement('a');
-            link.href = 'https://vardhamancoe-my.sharepoint.com/:b:/g/personal/recordedsessions_vardhaman_org/Ebdn_XGxfTNEpYbDf5m7DEcBH698-6_FAwYlkTiLiPEpHA?e=0SGTo9'; 
-            link.download = 'Lecture Notes';
-            document.body.appendChild(link);
-            link.click();
-            document.body.removeChild(link);
-        });</script>
 	
 	
 	<table width="100%">
-	
-	<th class="menu top"><div align="center"></th><th><div align="center">MODULE - V</th>
-	
+	<tr>
+	<th class="menu top"; colspan=4 style="color: #ff5733;"> MODULE - V</th>
+</tr>
+</table>
 <table width="100%">
-<table width="100%">
-	<tr style="text-align:center;">
-	
-		<th><font style="color: white;"><p style="font-size: 1.5em;">Lecture No</th>
-		<th><font style="color: white;"><p style="font-size: 1.5em;">Name of the Topic</th>
-		<th><font style="color: white;"><p style="font-size: 1.5em;">Lecture By</th>
-		<th><font style="color: white;"><p style="font-size: 1.5em;">Video Links</th>
-	<tr style="text-align:center;">
+<tr  style="text-align:center;">
+		
+		<th width="15%" >Lecture No</th>
+		<th width="40%" >Name of the Topic</th>
+		<th width="20%">Lecture By</th>
+		<th width="15%">Video Links</th>
+		</tr>
 	
 	<tr>
 	<td><strong>24</strong></td>
@@ -550,22 +514,7 @@ PLTfL8BuLfmuivof7011efsT4Th3YBZBo0&index=30
     </tr>  
     </table>
 	<br>
-	<h3>Click here for PDF link</h3>
-        <button id="downloadBtn">Download PDF</button>
-
-    <script>
-        document.getElementById('downloadBtn').addEventListener('click', function() {
-            const link = document.createElement('a');
-            link.href = 'https://vardhamancoe-my.sharepoint.com/:b:/g/personal/recordedsessions_vardhaman_org/Ebdn_XGxfTNEpYbDf5m7DEcBH698-6_FAwYlkTiLiPEpHA?e=0SGTo9'; 
-            link.download = 'Lecture Notes';
-            document.body.appendChild(link);
-            link.click();
-            document.body.removeChild(link);
-        });</script>
-	
-	
-	   
-        
+	       
 
 
 
