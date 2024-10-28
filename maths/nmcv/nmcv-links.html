@@ -2,102 +2,46 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-<title>NMCV LECTURES</title>
-<script>
-function goToPage( id ) {
-
-  var node = document.getElementById( id );
-  
-  // Check to see if valid node and if node is a SELECT form control
-  
-  if( node &&
-    node.tagName == "SELECT" ) {
-
-    // Go to video page defined by the VALUE attribute of the OPTION element
-
-    window.location.href = node.options[node.selectedIndex].value;
-    
-  } // endif
-  
-  
-}
-</script>
+<title>VARDHAMAN COLLEGE OF ENGG - VIDEO LECTURES</title>
+<head>
 <style>
-#select1
+#linked
 {
+	color:#000000;
+	text-decoration:none;
+	font-size:1.5em;
+	font-family:calibri;
+	font-weight: bold;
 	
-	
-	color:rgb(0,0,0);
-	font-family:"Times New Roman", Times, serif;
-	width:100px;
-	
-	cursor:pointer;
-	font-weight:bold;
-	
-	
-
-}
-#select2
-{
-	
-	
-	color:rgb(0,0,0);
-	font-family:"Times New Roman", Times, serif;
-	width:100px;
-	
-	cursor:pointer;
-	font-weight:bold;
-	
-	
-
-}
-#select3
-{
-	
-	
-	color:rgb(0,0,0);
-	font-family:"Times New Roman", Times, serif;
-	width:100px;
-	
-	cursor:pointer;
-	font-weight:bold;
-	
-}
+	}
 table { 
   width: 100%; 
   border-collapse: collapse; 
+  color:#01142A;
+  background-color:#ccc;
+  /* TABLE COLOUR INSIDE */
+  
 }
 /* Zebra striping */
-tr:nth-of-type(odd) { 
-  background: #bce0bc;
- 
-}
+/*tr:nth-of-type(even)*/ { 
+  background: #12121c; 
+  
+  }
+  
+  /* TABLE HEAD COLORS */
 th { 
-  background:#1b2b26; 
-  color: #ff5733; 
-  font-weight: bold;
-  height: 40px;
-  border: 1px solid #ccc; 
-  text-align: center;
-  font-size: 1.5em;
-  color: white;
-   
-          
+  background: #01142A; 
+  color: #ffffff; 
+  font-weight: bold; 
+  
 }
-
-td { 
+td, th { 
   padding: 6px; 
-  border: 1px solid #ccc; 
-  text-align: center;
+  border: 2px solid #000; 
+  text-align: left; 
+  
+  }
 
-    
-}
-.menu top{
- background:#1b2b26; 
-  color: #ff5733;
-  font-weight: bold;
-  height: 30px;
-}
 
 
 #type1
@@ -107,15 +51,16 @@ td {
 	color:rgb(0,0,0);
 	font-family:"Times New Roman", Times, serif;
 	width:100px;
-	
 	cursor:pointer;
 	font-weight:bold;
+			
 
 }
 
 #type1:hover
 {
 	color:#036;
+	
 }
 
 #courselink
@@ -126,129 +71,141 @@ td {
 	color:#03C;
 	font-weight:bold;
 	float:right;
-}
+	}
 #courselink:hover
 {
 	color:#F00;
-}
+	
+	}
+a:link {
+        color: #2d30e0;
+      }
 
+a:visited {
+        color: #2d30e0;
+      }
+	  
+
+a:hover {
+        color: #ffffff;
+      }
+a:link.link1,a:hover.link1,a:visited.link1{
+color: #ffffff;
+}
 
 #top
 {
-	height:60px;
-	background-color:#bce0bc;
-	text-align: center; 
-	height:60px;
+	height:161px;
+	background-color:#ededed;
 	
 }
 
+/* CHANGE MENU TOP COLORS */
+.menu-top
+{
+background-color:#01142A;
+color:#ffffff;
+border: 2px solid #ffffff; 
+}
+
 </style>
-
 </head>
-
 <body>
 
 <div>
 <div id="top">
-<img src="../../images/12345.png">
+<center><img src="../../images/12345.png"></center>
 
 
-</div>
-<div id="top">
-
-</div>
+<table width="100%">
+<tr>
+	<th class="menu-top"; colspan="4" style="text-align:center;">A8004 - NUMERICAL METHODS AND COMPLEX VARIABLES</th>
+</tr>
+</table>
 <table width="100%">
 	<tr>
-	<th class="menu top"; colspan=4 style="color: #ffffff;">A8004 - NUMERICAL METHODS AND COMPLEX VARIABLES</th>
-</tr>
-<tr>
-<th class="menu top"; colspan=4 style="color: #ff5733;"> MODULE - I</th>
+	<th class="menu-top"; colspan="4"style="text-align: center" > MODULE - I</th>
 </tr>
 </table>
 <table width="100%">
 <tr  style="text-align:center;">
 		
-		<th width="15%" >Lecture No</th>
-		<th width="40%" >Name of the Topic</th>
-		<th width="20%">Lecture By</th>
-		<th width="15%">Video Links</th>
+		<th width="15%"style="text-align: center" >Lecture No</th>
+		<th width="40%"style="text-align: center" >Name of the Topic</th>
+		<th width="20%"style="text-align: center">Lecture By</th>
+		<th width="15%"style="text-align: center">Video Links</th>
 		</tr>
-
+	
+	
+	<tr>
+	<td ><strong><div align="center">1</strong></td>
+	<td ><strong><div align="left">Solution of Algebraic and Transcendental Equation (Bisection Method)</div></strong></td>
+	<td ><strong><div align="left">Dr.Jahnabi Chakravarthy</div></strong></td>
+	<td ><strong><a href="https://www.youtube.com/watch?v=HQ_9RVfd0CA&list=
+PLTfL8BuLfmuivof7011efsT4Th3YBZBo0&index=49">Click for Video</a></strong></td>
 	</tr>
-	<tr>
-	<td><strong>1</strong></td>
-	<td><strong>Solution of Algebraic and Transcendental Equation (Bisection Method)</strong></td>
-	<td><strong>Dr.Jahnabi Chakravarthy</strong></td>
-	<td><strong><a href="https://www.youtube.com/watch?v=HQ_9RVfd0CA&list=
-PLTfL8BuLfmuivof7011efsT4Th3YBZBo0&index=49
-">Click for Video</a></td></strong></td></tr>
 	
-
-
 	
 	<tr>
-	<td><strong>2</strong></td>
-	<td><strong>Solution of Algebraic and Transcendental Equation(Fixed Point Iteration Method)</strong></td>
-	<td><strong>Dr.Jahnabi Chakravarthy</strong></td>
-	<td><strong><a href="https://www.youtube.com/watch?v=TMIcODx3H4s&list=
-PLTfL8BuLfmuivof7011efsT4Th3YBZBo0&index=58
-">Click for Video</strong></td>
-	
-      
-      
-      
+	<td ><strong><div align="center">2</strong></td>
+	<td ><strong><div align="left">Solution of Algebraic and Transcendental Equation(Fixed Point Iteration Method)</div></strong></td>
+	<td ><strong><div align="left">Dr.Jahnabi Chakravarthy</div></strong></td>
+	<td ><strong><a href="https://www.youtube.com/watch?v=TMIcODx3H4s&list=
+PLTfL8BuLfmuivof7011efsT4Th3YBZBo0&index=58">Click for Video</a></strong></td>
+	</tr>
+
+            
  
 	<tr>
-	<td><strong>3</strong></td>
-	<td><strong>Solution of Algebraic and Transcendental Equation (Newton Raphson Method)</strong></td>
-	<td><strong>Mr V.Narender</strong></td>
-	<td><strong><a href="https://www.youtube.com/watch?v=JAluXTQ5b2Y&list=
-PLTfL8BuLfmuivof7011efsT4Th3YBZBo0&index=68
-">Click for Video</strong></td>
+	<td ><strong><div align="center">3</strong></td>
+	<td ><strong><div align="left">Solution of Algebraic and Transcendental Equation (Newton Raphson Method)</div></strong></td>
+	<td ><strong><div align="left">Dr.Jahnabi Chakravarthy</div></strong></td>
+	<td ><strong><a href="">Click for Video</a></strong></td>
+	</tr>
 	
 	
 	<tr>
-	<td><strong>4</strong></td>
-	<td><strong>Regula Falsi Method</strong></td>
-	<td><strong>Mr V.Narender</strong></td>
-	<td><strong><a href="https://www.youtube.com/watch?v=gOpyOTsWyrE&list=
-PLTfL8BuLfmuivof7011efsT4Th3YBZBo0&index=43
-">Click for Video</strong></td>
+	<td ><strong><div align="center">4</strong></td>
+	<td ><strong><div align="left">Regula Falsi Method</div></strong></td>
+	<td ><strong><div align="left">Dr.Jahnabi Chakravarthy</div></strong></td>
+	<td ><strong><a href="">Click for Video</a></strong></td>
+	</tr>
 	
 	
 	
 	<tr>
-	<td><strong>5</strong></td>
-	<td><strong>Jacobi Iteration Method</strong></td>
-	<td><strong>Mr V.Narender</strong></td>
-	<td><strong><a href="https://www.youtube.com/watch?v=kEZs-EmDs3M&list=PLTfL8BuLfmuivof7011efsT4Th3YBZBo0&index=4">Click for Video</strong></td>
-	
+	<td ><strong><div align="center">5</strong></td>
+	<td ><strong><div align="left">Jacobi Iteration Method</div></strong></td>
+	<td ><strong><div align="left">Mr V.Narender</div></strong></td>
+	<td ><strong><a href="https://www.youtube.com/watch?v=kEZs-EmDs3M&list=PLTfL8BuLfmuivof7011efsT4Th3YBZBo0&index=4">Click for Video</a></strong></td>
+	</tr>
 
 
 	<tr>
-	<td><strong>6</strong></td>
-	<td><strong>Gauss Seidel Iteration Method</strong></td>
-	<td><strong>Mr V.Narender</strong></td>
+	<td ><strong><div align="center">6</strong></td>
+	<td><strong><div align="left">Gauss Seidel Iteration Method</div></strong></td>
+	<td><strong><div align="left">Mr V.Narender</div></strong></td>
 	<td><strong><a href="https://www.youtube.com/watch?v=Zb2DbKbxYOU&list=
-PLTfL8BuLfmuivof7011efsT4Th3YBZBo0&index=3
-">Click for Video</strong></td>
+PLTfL8BuLfmuivof7011efsT4Th3YBZBo0&index=3">Click for Video</a></strong></td>
+	</tr>
+	
 	
 	<tr>
-	<td><strong>7</strong></td>
-	<td><strong>Interpolation Finite Differences</strong></td>
-	<td><strong>Mr V.Narender</strong></td>
+	<td ><strong><div align="center">7</strong></td>
+	<td><strong><div align="left">Interpolation Finite Differences</div></strong></td>
+	<td><strong><div align="left">Mr V.Narender</div></strong></td>
 	<td><strong><a href="https://www.youtube.com/watch?v=JbKg9d0OAuY&list=
-PLTfL8BuLfmuivof7011efsT4Th3YBZBo0&index=7
-">Click for Video</strong></td>
-	
+PLTfL8BuLfmuivof7011efsT4Th3YBZBo0&index=7">Click for Video</a></strong></td>
+	</tr>
 	
 	<tr>
-	<td><strong>8</strong></td>
-	<td><strong>Newton’s Forward Interpolation Formula</strong></td>
-	<td><strong>Dr.Jahnabi Chakravarthy</strong></td>
+	<td ><strong><div align="center">8</strong></td>
+	<td><strong><div align="left">Newton’s Forward Interpolation Formula</div></strong></td>
+	<td><strong><div align="left">Dr.Jahnabi Chakravarthy</div></strong></td>
 	<td><strong><a href="https://www.youtube.com/watch?v=5p4EYZ9XJFg&list=
-PLTfL8BuLfmuivof7011efsT4Th3YBZBo0&index=5
-">Click for Video</strong></td>
+PLTfL8BuLfmuivof7011efsT4Th3YBZBo0&index=5">Click for Video</a></strong></td>
+	</tr>
+	
 	
 	
 	<tr>
@@ -258,78 +215,400 @@ PLTfL8BuLfmuivof7011efsT4Th3YBZBo0&index=5
 	<td><strong><a href="https://www.youtube.com/watch?v=pV5SYuHKYAo&list=
 PLTfL8BuLfmuivof7011efsT4Th3YBZBo0&index=10
 ">Click for Video</strong></td></strong></td>
-	
-	
-	<tr>
+</tr>
+
+
+<tr>
 	<td><strong>10</strong></td>
 	<td><strong>Lagranges Interpolation Formula</strong></td>
 	<td><strong>Dr.Jahnabi Chakravarthy</strong></td>
-	<td><strong><a href="https://www.youtube.com/watch?v=p8rdyc0Oshw&list=
-PLTfL8BuLfmuivof7011efsT4Th3YBZBo0&index=15
-">Click for Video</strong></td></strong></td>
+	<td><strong><a href="">Click for Video</strong></td></strong></td>
 </tr>
+
+
+
+   <table width="100%">
+          <tr>
+            <th class="menu top" colspan= "4" style="text-align: center">
+              <a class="link1" href="https://vardhamancoe-my.sharepoint.com/:b:/g/personal/recordedsessions_vardhaman_org/EWHUft7N_DtDoG5EavqA2q4B157JxTZXTElwBW4RZun1iw?e=UPgqHI">Click to Download Module-I Lecture Notes</a>
+            </th>
+          </tr>
+        </table>
+
+
 <table width="100%">
 	<tr>
-	<th class="menu top"; colspan=4 style="color: #ff5733;"> MODULE - I</th>
+	<th class="menu-top"; colspan=4 style="text-align: center" > MODULE - II</th>
 </tr>
 </table>
+
+<table width="100%">
+<tr>
+		<th width="15%"style="text-align: center">Lecture No</th>
+		<th width="40%"style="text-align: center">Name of the Topic</th>
+		<th width="20%"style="text-align: center">Lecture By</th>
+		<th width="15%"style="text-align: center">Video Links</th>
+</tr>
+
+<tr>
+	<td ><strong><div align="center">11</strong></td>
+	<td><strong><div align="left">Newton’s Cotes Quadrature formula</div></strong></td>
+	<td><strong><div align="left">Dr.Jahnabi Chakravarthy</strong></td>
+	<td><strong><a href="https://www.youtube.com/watch?v=gcbUZ1Yk_zc&list=
+PLTfL8BuLfmuivof7011efsT4Th3YBZBo0&index=2">Click for Video</a></strong></td>
+	</tr>
+	
+	<tr>
+	<td ><strong><div align="center">12</strong></td>
+	<td><strong><div align="left">Trapezoidal Rule</div></strong></td>
+	<td><strong><div align="left">Dr.Jahnabi Chakravarthy</div></strong></td>
+	<td><strong><a href="https://www.youtube.com/watch?v=ZiWhi-imkQ4&list=PLTfL8BuLfmuivof7011efsT4Th3YBZBo0&index=1
+">Click for Video</a></strong></td>
+	</tr>
+	
+	<tr>
+	<td ><strong><div align="center">13</strong></td>
+	<td><strong><div align="left">Formula</div></strong></td>
+	<td><strong><div align="left">Dr.Jahnabi Chakravarthy</div></strong></td>
+	<td><strong><a href="">Click for Video</a></strong>
+	</tr>
+	
+      
+	<tr>
+	<td ><strong><div align="center">12</strong></td>
+	<td><strong><div align="left"></div></strong></td>
+	<td><strong><div align="left"></div></strong></td>
+	<td><strong><a href="">Click for Video</a></strong>
+	</td>
+	 </tr>   
+      
+	<tr>
+	<td ><strong><div align="center">13</strong></td>
+	<td><strong><div align="left"></div></strong></td>
+	<td><strong><div align="left"></div></strong></td>
+	<td><strong><a href="">Click for Video</a></strong></td>
+	</tr>
+      
+	<tr>
+	<td ><strong><div align="center">14</strong></td>
+	<td><strong><div align="left"></div></strong></td>
+	<td><strong><div align="left"></div></strong></td>
+	<td><strong><a href="" >Click for Video</a></strong></td></td>
+	</tr>
+    
+    
+      
+	<tr>
+	<td><strong><div align="center">15</strong></td>
+	<td><strong><div align="left"></div></strong></td>
+	<td><strong><div align="left"></div></strong></td>
+	<td><strong><a href="" >Click for Video</a></strong></td></strong></td>
+	</tr>
+    
+
+		
+	<tr>
+	<td><strong><div align="center">16</strong></td>
+	<td><strong><div align="left"></div></strong></td>
+	<td><strong><div align="left"></div></strong></td>
+	<td><strong><a href="" >Click for Video</a></strong></td>
+</tr>
+<table width="100%">
+          <tr>
+            <th class="menu top" colspan= "4" style="text-align: center">
+              <a class="link1" href="">Click to Download Module-II Lecture Notes</a>
+            </th>
+          </tr>
+        </table>
+
+
+<table width="100%">
+<tr>
+
+	<th class="menu-top" colspan="4" style="text-align: center">MODULE - III</th>
+</tr>
+</table>
+<table>
+
+<tr>
+		<th width="15%"style="text-align: center">Lecture No</th>
+		<th width="40%"style="text-align: center">Name of the Topic</th>
+		<th width="20%"style="text-align: center">Lecture By</th>
+		<th width="15%"style="text-align: center">Video Links</th>
+</tr>
+
+	
+	<tr>
+	<td width="15%"><strong><div align="center">17</strong></td>
+	<td><strong><div align="left"></div></strong></td>
+	<td><strong><div align="left"></div></strong></td>
+	<td width="15%"><strong><a href="" >Click for Video</a></strong></td>
+	</tr>
+      
+                           
+           
+	<tr>
+	<td><strong><div align="center">18</strong></td>
+	<td><strong><div align="left"></div></strong></td>
+	<td><strong><div align="left"></div></strong></td>
+	<td><strong><a href="" >Click for Video</a></strong></td>
+</tr>
+	
+          
+    
+     
+	<tr>
+	<td><strong><div align="center">19</strong></td>
+	<td><strong><div align="left"></div></strong></td>
+	<td><strong><div align="left"></div></strong></td>
+	<td><strong><a href="" >Click for Video</a></strong></td>
+	</tr>
+      
+            
+      
+	<tr>
+	<td><strong><div align="center">20</strong></td>
+	<td><strong><div align="left"></div></strong></td>
+<td><strong><div align="left"></div></strong></td>
+<td><strong><a href="" >Click for Video</a></strong></td>
+</tr>
+	
+      
+      
+       
+         
+	<tr>
+	<td><strong><div align="center">21</strong></td>
+	<td><strong><div align="left"></div></strong></td>
+	<td><strong><div align="left"></div></strong></td>
+	<td><strong><a href="" >Click for Video</a></strong></td>
+</tr>
+	
+      
+      
+          
+	<tr>
+	<td><strong><div align="center">22</strong></td>
+	<td> <strong><div align="left"></div></strong></td>
+	<td><strong><div align="left"></div></strong></td>
+	<td><strong><a href="" >Click for Video</a></strong></td>
+</tr>
+
+<tr style="text-align:center;">
+         
+	
+	<td><strong><div align="center">23</strong></td>
+	
+	<td><strong><div align="left"></strong></td>
+	<td><strong><div align="left"></strong></td>
+	
+	<td><strong><a href="" >Click for Video</a></strong></td>
+</tr>
+
+<table width="100%">
+          <tr>
+            <th class="menu top" colspan= "4" style="text-align: center">
+              <a class="link1" href="">Click to Download Module-III Lecture Notes</a>
+            </th>
+          </tr>
+        </table>
+
+		<table width="100%">
+			<tr>
+		<th class="menu-top" colspan="4" style="text-align: center">MODULE - IV</th>
+		</tr>
+		</table>
+		
+
+<table width="100%">
+	<tr style="text-align:center;">
+		<th width="15%"style="text-align: center">Lecture No</th>
+		<th width="40%"style="text-align: center">Name of the Topic</th>
+		<th width="20%"style="text-align: center">Lecture By</th>
+		<th width="15%"style="text-align: center">Video Links</th>
+	</tr>
+
+	     
+                  
+      
+	<tr>
+	<td><strong><div align="center">24</strong></td>
+	
+	<td><strong><div align="left"></div></strong></td>
+	<td><strong><div align="left"></div></strong></td>
+	
+	<td><strong><a href="" >Click for Video</a></strong></td>
+</tr>
+
+
+<tr>
+	<td><strong><div align="center">25</strong></td>
+	
+	<td><strong><div align="left"></div></strong></td>
+	<td><strong><div align="left"></div></strong></td>
+	
+	<td><strong><a href="" >Click for Video</a></strong></td>
+</tr>
+      
+      
+            
+     
+    
+	<tr>
+	<td><strong><div align="center">26</strong></td>
+	
+	<td><strong><div align="left"></div></strong></td>
+	<td><strong><div align="left"></div></strong></td>
+	
+	<td><strong><a href="" >Click for Video</a></strong></td>
+	
+
+	</tr>
+	   
+	<tr>
+	<td><strong><div align="center">27</strong></td>
+	
+	<td><strong><div align="left"></div></strong></td>
+	<td><strong><div align="left"></div></strong></td>
+	
+	<td><strong><a href="" >Click for Video</a></strong></td>
+	
+
+	</tr>
+	
+
+	<tr>
+	<td><strong><div align="center">28</strong></td>
+	
+	<td><strong><div align="left"></div></strong></td>
+	<td><strong><div align="left"></div></strong></td>
+	<td><strong><a href="">Click for Video</a></strong></td>
+	
+	
+	</tr>
+	
+	<tr>
+	<td><strong><div align="center">29</strong></td>
+	
+	<td><strong><div align="left"></div></strong></td>
+	<td><strong><div align="left"></div></strong></td>
+	
+	<td><strong><a href="" >Click for Video</a></strong></td></tr>
+<tr>
+	<table width="100%">
+          <tr>
+            <th class="menu top" colspan= "4" style="text-align: center">
+              <a class="link1" href="">Click to Download Module-IV Lecture Notes</a>
+            </th>
+          </tr>
+        </table>
+
+	
+	<table width="100%">
+		<tr>
+		<th class="menu-top" colspan="4" style="text-align: center">MODULE - V</th>
+		</tr>
+		</table>
+	
+<table>	
 <table width="100%">
 <tr  style="text-align:center;">
-		
-		<th width="15%" >Lecture No</th>
-		<th width="40%" >Name of the Topic</th>
-		<th width="20%">Lecture By</th>
-		<th width="15%">Video Links</th>
+
+		<th width="15%"style="text-align: center">Lecture No</th>
+		<th width="40%"style="text-align: center">Name of the Topic</th>
+		<th width="20%"style="text-align: center">Lecture By</th>
+		<th width="15%"style="text-align: center">Video Links</th>
+	</tr>
+
+	
+	<tr style="text-align:center;">
+	<td><strong><div align="center">30</strong></td>
+	
+	<td><strong><div align="left"></div></strong></td>
+	<td><strong><div align="left"></div></strong></td>
+	
+	<td><strong><a href="" >Click for Video</a></strong></td></tr>
+	
+	
+	<tr>
+	<td><strong><div align="center">31</strong></td>
+	
+	<td><strong><div align="left"></div></strong></td>
+	<td><strong><div align="left"></div></strong></td>
+	
+	<td><strong><a href="" >Click for Video</a></strong></td></tr>
+	
+	<tr>
+	<td><strong><div align="center">32</strong></td>
+	
+	<td><strong><div align="left"></div></strong></td>
+	<td><strong><div align="left"></div></strong></td>
+	
+	<td><strong><a href="" >Click for Video</a></strong></td></tr>
+	
+	
+	<tr>
+	<td><strong><div align="center">33</strong></td>
+	
+	<td><strong><div align="left"></div></strong></td>
+	<td><strong><div align="left"></div></strong></td>
+	
+	<td><strong><a href="" >Click for Video</a></strong></td></tr>
+	
+      <tr>
+	<td><strong><div align="center">34</strong></td>
+	
+	<td><strong><div align="left"></div></strong></td>
+	<td><strong><div align="left"></div></strong></td>
+	
+	<td><strong><a href="" >Click for Video</a></strong></td>
+</tr>
+	
+	<tr>
+	<td><strong><div align="center">35</strong></td>
+	
+	<td><strong><div align="left"></div></strong></td>
+	<td><strong><div align="left"></div></strong></td>
+	<td><strong><a href="" >Click for Video</a></strong></td>
+</tr>
+	
+	<tr>
+	<td><strong><div align="center">36</strong></td>
+	
+	<td><strong><div align="left"></div></strong></td>
+	<td><strong><div align="left"></div></strong></td>
+	
+	<td><strong><a href="" >Click for Video</a></strong></td>
+</tr><tr><td colspan='4'></td></tr>
+<tr>
+	<table width="100%">
+          <tr>
+            <th class="menu top" colspan= "4" style="text-align: center">
+              <a class="link1" href="">Click to Download Module - V Lecture Notes</a>
+            </th>
+          </tr>
+        </table>
+
+<table width="100%">
+	<tr>
+	<th class="menu-top"; colspan=4;><div align="center"; style="color:white;"> EXAM MODEL PAPERS</th>
+	</table>
+	<tr>
+	<table>	
+<table width="100%">
+<tr  style="text-align:center;">
+
+		<th width="33%"> <div align="center";><a href="" style="color:white;">NMCV CAT-I Model Paper-A8004</a></th>
+		<th width="33%"><div align="center";><a href="" style="color:white;">NMCV CAT-II Model Paper-A8004</a></th>
+		<th width="33%"><div align="center";><a href="" style="color:white;">NMCV SEE Model Paper -A8004</a></th>
 		</tr>
 
-	<tr>
-	<td><strong>11</strong></td>
-	<td><strong>Newton’s Cotes Quadrature formula</strong></td>
-	<td><strong>Dr.Jahnabi Chakravarthy</strong></td>
-	<td><strong><a href="https://www.youtube.com/watch?v=gcbUZ1Yk_zc&list=
-PLTfL8BuLfmuivof7011efsT4Th3YBZBo0&index=2
-">Click for Video</strong>
-	</strong></td>
-	
-	
-    <tr>
-	<td><strong>12</strong></td>
-	<td><strong>Trapezoidal Rule</strong></td>
-	<td><strong>Dr.Jahnabi Chakravarthy</strong></td>
-	<td><strong><a href="https://www.youtube.com/watch?v=ZiWhi-imkQ4&list=PLTfL8BuLfmuivof7011efsT4Th3YBZBo0&index=1
-">Click for Video</strong>
-	</strong></td>
+</tr>
     
-    
-    
-    
-	<tr>
-	<td><strong>13</strong></td>
-	<td><strong> Formula</strong></td>
-	<td><strong>Dr.Jahnabi Chakravarthy</strong></td>
-	<td><strong><a href="">Click for Video</strong>
-	</td>
-	      
-      
-	<tr>
-	<td><strong></strong></td>
-	<td><strong></strong></td>
-	<td><strong></strong></td>
-	<td><strong><a href="" >Click for Video</strong></td></strong></td>
-	
-      
-	<tr>
-	<td><strong></strong></td>
-	<td><strong></strong></td>
-	<td><strong></strong></td>
-	<td><strong><a href="" >Click for Video</strong></td></strong></td>
-	
-    
-        
-
-
-
    </table>
     </div>
 </body>
 </html>
+
+	
+	
